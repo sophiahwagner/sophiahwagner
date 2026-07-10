@@ -8,14 +8,17 @@ This summer I'm doing a self-directed data science internship: SQL, Python, and 
 `Python` `Pandas` `SQLite` `Matplotlib/Seaborn` `Data Cleaning & ETL`
 
 ## Featured Projects
+The five SQL repos below build on each other — from basic filtering through to multi-table joins and advanced query logic.
 
 | Project | What it demonstrates |
 |---|---|
-| [healthcare-database-design](https://github.com/sophiahwagner/healthcare-database-design) | Relational schema design — clinic operations DB with foreign key constraints, edge-case handling |
-| [advanced-sql-analytics](https://github.com/sophiahwagner/advanced-sql-analytics) | CTEs, subqueries, window functions for operational reporting |
+| [sql-fundamentals-practice](https://github.com/sophiahwagner/sql-fundamentals-practice) | SQL basics practice — filtering rows, handling missing values, grouping data with a mock patient dataset |
 | [multi-table-sql-queries](https://github.com/sophiahwagner/multi-table-sql-queries) | Joins, anti-joins, aggregations across linked tables |
-| [clinical-data-validator-python](https://github.com/sophiahwagner/clinical-data-validator-python) | Python data validation pipeline with automated error logging |
-| [cereal-nutrition-analysis](https://github.com/sophiahwagner/cereal-nutrition-analysis) | Exploratory data analysis with visualization and insights |
+| [dataset-cleaning-sql](https://github.com/sophiahwagner/dataset-cleaning-sql) | Cleaned two messy simulated datasets — fixed inconsistent text, converted error codes to NULL, removed duplicates |
+| [advanced-sql-analytics](https://github.com/sophiahwagner/advanced-sql-analytics) | Subqueries and temporary tables to find staff whose appointment load is above average |
+| [healthcare-database-design](https://github.com/sophiahwagner/healthcare-database-design) | Full relational schema for a clinic — two linked tables with foreign key constraints and edge-case test data |
+| [clinical-data-validator-python](https://github.com/sophiahwagner/clinical-data-validator-python) | Python script that checks healthcare data for errors and writes them to a log file |
+| [cereal-nutrition-analysis](https://github.com/sophiahwagner/cereal-nutrition-analysis) | Exploratory data analysis of a cereal nutrition dataset, with charts and written findings |
 
 ## Currently building
 Python pipelines using live public health data (CDC/WHO APIs), epidemiological statistics, and geospatial mapping.
